@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseekchat",
+  "version": "1.0.0",
+  "name": "deepseekchat",
+  "description": "集成 DeepSeek API 的聊天助手",
+  "authors": ["Ocscraft"],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/deepseekchat/icon.png",
+  "entrypoints": {
+    "server": ["chat.deepseek.Deepseekchat"]
+  },
+  "environment": "*",
+  "mixins": ["deepseekchat.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": ">=0.102.0"
+  }
+}
